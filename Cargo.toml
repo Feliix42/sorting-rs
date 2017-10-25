@@ -1,0 +1,6 @@
+[package]
+name = "slowsort"
+version = "1.0.0"
+authors = ["Felix Wittwer <dev@felixwittwer.de>"]
+
+[dependencies]
