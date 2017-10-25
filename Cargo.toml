@@ -1,5 +1,5 @@
 [package]
-name = "slowsort"
+name = "sorting"
 version = "1.0.0"
 authors = ["Felix Wittwer <dev@felixwittwer.de>"]
 

@@ -1,10 +1,5 @@
-pub trait Slowsort {
-    fn slowsort(&mut self) -> Self;
-}
+#![warn(missing_docs)]
 
+mod slowsort;
 
-impl<T: Ord> Slowsort for Vec<T> {
-    fn slowsort(&mut self) -> Vec<T> {
-        unimplemented!();
-    }
-}
+pub use slowsort::*;

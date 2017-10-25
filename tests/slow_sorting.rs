@@ -1,6 +1,6 @@
-extern crate slowsort;
+extern crate sorting;
 
-use slowsort::*;
+use sorting::*;
 
 #[test]
 fn sorts_vectors() {
