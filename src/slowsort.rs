@@ -1,7 +1,7 @@
 /// This trait provides the `slowsort` functionality.
 pub trait Slowsort {
     /// **Slowsort** is a humurous sorting algorithm based on the principle of _multiply
-    /// and surrender_. The algorithm itsels is of recursive nature. It finds the maximum
+    /// and surrender_. The algorithm itself is of recursive nature. It finds the maximum
     /// of the sorted array, places that maximum at the end and sorts the remaining array
     /// recursively.
     ///

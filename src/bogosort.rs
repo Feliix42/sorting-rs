@@ -8,7 +8,7 @@ pub trait Bogosort {
     ///
     /// If not, a new permutation is generated:
     ///
-    /// ```
+    /// ```text
     /// while not isInOrder(deck):
     ///     shuffle(deck)
     /// ```
