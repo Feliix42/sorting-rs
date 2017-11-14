@@ -3,5 +3,16 @@ name = "sorting"
 version = "1.0.0"
 authors = ["Felix Wittwer <dev@felixwittwer.de>"]
 
+description = "The world's best, finest and inefficient sorting algorithms."
+homepage = "https://github.com/feliix42/sorting-rs"
+repository = "https://github.com/Feliix42/sorting-rs"
+readme = "./README.md"
+keywords = ["sort", "joke", "ordering"]
+categories = ["algorithms"]
+license = "MPL-2.0"
+
+[badges]
+travis-ci = { repository = "feliix42/sorting-rs" }
+
 [dependencies]
 rand = "0.3"
