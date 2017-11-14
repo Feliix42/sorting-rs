@@ -27,4 +27,6 @@ unsorted.panicsort();   // will panic
 
 Using the respective traits you can always implement these methods for your own structures.
 
+## License
 
+This work is licensed under the [Mozilla Public License 2.0](https://github.com/Feliix42/sorting-rs/blob/master/LICENSE).
