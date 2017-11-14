@@ -12,7 +12,7 @@ categories = ["algorithms"]
 license = "MPL-2.0"
 
 [badges]
-travis-ci = { repository = "feliix42/sorting-rs" }
+travis-ci = { repository = "Feliix42/sorting-rs" }
 
 [dependencies]
 rand = "0.3"

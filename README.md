@@ -1,6 +1,6 @@
 # The world's best and finest sorting algorithms, implemented in Rust
 
-[![Build Status](https://travis-ci.org/Feliix42/sorting-rs.svg?branch=master)](https://travis-ci.org/Feliix42/sorting-rs) [![docs.rs](https://docs.rs/sorting/badge.svg)](https://docs.rs/sorting)
+[![Build Status](https://travis-ci.org/Feliix42/sorting-rs.svg?branch=master)](https://travis-ci.org/Feliix42/sorting-rs) [![docs.rs](https://docs.rs/sorting/badge.svg)](https://docs.rs/sorting) [![Crates.io](https://img.shields.io/crates/v/sorting.svg)]()
 
 This crate only implements the most useless or inefficient sorting algorithms. You may use them in your production application, altough I would strongly advise against that.
 Currently, the following sorting algorithms are implemented:
