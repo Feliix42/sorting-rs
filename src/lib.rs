@@ -40,12 +40,26 @@
 //! let mut unsorted = vec![5, 7, 8, 2, 1, 0];
 //! unsorted.bogosort();    // might take a while...
 //! ```
+//!
+//! ## Sleepsort
+//!
+//! This algorithm uses the operating system's scheduler for sorting by putting every
+//! value into its own thread and putting that thread to sleep for a time determined
+//! by the value.
+//! ```ignore
+//! # // This takes over two minutes to test, so we exclude it from normal test runs
+//! # use sorting::*;
+//! let unsorted = vec![5i8, -7, 8, 2, 1, 0, -9];
+//! let sorted: Vec<_> = unsorted.sleepsort().collect();
+//! ```
 #![warn(missing_docs)]
 
 mod slowsort;
 mod bogosort;
 mod panicsort;
+mod sleepsort;
 
 pub use slowsort::*;
 pub use bogosort::*;
 pub use panicsort::*;
+pub use sleepsort::*;
