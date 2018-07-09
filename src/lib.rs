@@ -46,6 +46,7 @@
 //! This algorithm uses the operating system's scheduler for sorting by putting every
 //! value into its own thread and putting that thread to sleep for a time determined
 //! by the value.
+//!
 //! ```ignore
 //! # // This takes over two minutes to test, so we exclude it from normal test runs
 //! # use sorting::*;
