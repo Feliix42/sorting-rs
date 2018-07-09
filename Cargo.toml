@@ -1,6 +1,6 @@
 [package]
 name = "sorting"
-version = "1.0.0"
+version = "1.1.0"
 authors = ["Felix Wittwer <dev@felixwittwer.de>"]
 
 description = "The world's best, finest and inefficient sorting algorithms."
@@ -15,4 +15,4 @@ license = "MPL-2.0"
 travis-ci = { repository = "Feliix42/sorting-rs" }
 
 [dependencies]
-rand = "0.3"
+rand = "0.5"
