@@ -53,14 +53,28 @@
 //! let unsorted = vec![5i8, -7, 8, 2, 1, 0, -9];
 //! let sorted: Vec<_> = unsorted.sleepsort().collect();
 //! ```
+//!
+//! ## Miraclesort
+//!
+//! A sorting algorithm that waits for a miracle that automatically makes your vector
+//! sorted. Does nothing on its own.
+//!
+//! ```ignore
+//! # //don't run tests for this. Miracles don't happen all the time!
+//! # use sorting::*;
+//! let unsorted = vec![5i8, -7, 8, 2, 1, 0, -9];
+//! let sorted: Vec<_> = unsorted.miraclesort();
+//! ```
 #![warn(missing_docs)]
 
 mod slowsort;
 mod bogosort;
 mod panicsort;
 mod sleepsort;
+mod miraclesort;
 
 pub use slowsort::*;
 pub use bogosort::*;
 pub use panicsort::*;
 pub use sleepsort::*;
+pub use miraclesort::*;

@@ -8,8 +8,14 @@ Currently, the following sorting algorithms are implemented:
 - [Slowsort](https://github.com/Feliix42/sorting-rs/blob/master/src/slowsort.rs)
 - [Bogosort](https://github.com/Feliix42/sorting-rs/blob/master/src/bogosort.rs)
 - [Panicsort](https://github.com/Feliix42/sorting-rs/blob/master/src/panicsort.rs)
+- [Sleepsort](https://github.com/Feliix42/sorting-rs/blob/master/src/sleepsort.rs)
+- [Miraclesort](https://github.com/Feliix42/sorting-rs/blob/master/src/miraclesort.rs)
 
 If you feel like this list misses some fancy algorithm (which it surely does!), you can implement it and [open a PR](https://github.com/Feliix42/sorting-rs/compare) or open an [issue](https://github.com/Feliix42/sorting-rs/issues/new). :)
+
+## Why occupy such a good crate name for this?!
+
+Honestly, I did not think much of this at the time this was conceived. But if you think you have a more valid use for this crate name, _please_ do get in touch with me so that we can work something out!
 
 ## Implementation & Usage
 
@@ -17,8 +23,6 @@ All algorithms are currently implemented as traits for any `Vec<T>` where `T` fu
 So in order to use these sorting alrogithms, you can just invoke them on the object of interest:
 
 ```rust
-extern crate sorting;
-
 use sorting::*;
 
 let unsorted = vec![5, 7, 8, 2, 1, 0];
