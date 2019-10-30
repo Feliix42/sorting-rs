@@ -11,6 +11,10 @@ readme = "./README.md"
 keywords = ["sort", "joke", "ordering"]
 categories = ["algorithms"]
 license = "MPL-2.0"
+exclude = [
+    ".cargo_vcs_info.json",
+    ".travis.yml",
+]
 
 [badges]
 travis-ci = { repository = "Feliix42/sorting-rs" }
