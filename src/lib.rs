@@ -9,7 +9,6 @@
 //! and simply panics when the array or vector is not sorted:
 //!
 //! ```should_panic
-//! # mod sorting;
 //! # use sorting::*;
 //! let unsorted = vec![5, 7, 8, 2, 1, 0];
 //! unsorted.panicsort();   // will panic
@@ -22,7 +21,6 @@
 //! array.
 //!
 //! ```
-//! # mod sorting;
 //! # use sorting::*;
 //! let mut unsorted = vec![5, 7, 8, 2, 1, 0];
 //! unsorted.slowsort();
@@ -35,7 +33,6 @@
 //! never return.
 //!
 //! ```
-//! # mod sorting;
 //! # use sorting::*;
 //! let mut unsorted = vec![5, 7, 8, 2, 1, 0];
 //! unsorted.bogosort();    // might take a while...
@@ -73,8 +70,8 @@ mod panicsort;
 mod sleepsort;
 mod miraclesort;
 
-pub use slowsort::*;
-pub use bogosort::*;
-pub use panicsort::*;
-pub use sleepsort::*;
-pub use miraclesort::*;
+pub use crate::slowsort::*;
+pub use crate::bogosort::*;
+pub use crate::panicsort::*;
+pub use crate::sleepsort::*;
+pub use crate::miraclesort::*;

@@ -167,7 +167,7 @@ impl<I> ExactSizeIterator for SleepsortIter<I>
 
 impl SleepsortSpeed {
     fn adjust_duration(self, dur: Duration) -> Duration {
-        use SleepsortSpeed::*;
+        use crate::SleepsortSpeed::*;
 
         match self {
             Default => dur,

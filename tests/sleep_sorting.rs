@@ -21,7 +21,7 @@ fn sleep_sort_signed() {
 
 #[test]
 fn sleep_sort_faster() {
-    use SleepsortSpeed::*;
+    use crate::SleepsortSpeed::*;
 
     let unsorted = vec![10u8, 5, 0, 3];
     let start = Instant::now();
@@ -33,7 +33,7 @@ fn sleep_sort_faster() {
 
 #[test]
 fn sleep_sort_slower() {
-    use SleepsortSpeed::*;
+    use crate::SleepsortSpeed::*;
 
     let unsorted = vec![4u8, 2, 0, 3];
     let start = Instant::now();
